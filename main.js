@@ -1,6 +1,11 @@
 /********************
  * YOUR CODE BELOW! *
  ********************/
+let iGetTheJoke = false;
+let havingFun = true;
+let learning = true;
+let killingIt = false;
+
 
 
 
