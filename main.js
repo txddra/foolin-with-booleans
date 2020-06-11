@@ -17,6 +17,15 @@ function isOpposite(boolean){
  return !boolean;
 };
 
+function both(bool, bool1){
+  return bool && bool1;
+
+}
+
+function either(bool, bool1){
+  return bool || bool1;
+  
+}
 
 
 /********************************************************************************************
