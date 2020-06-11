@@ -10,9 +10,12 @@ killingIt;
 
 function returnFalse(random){
  return false;
- 
+
 }
 
+function isOpposite(boolean){
+ return !boolean;
+};
 
 
 
