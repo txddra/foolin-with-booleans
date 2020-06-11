@@ -24,9 +24,16 @@ function both(bool, bool1){
 
 function either(bool, bool1){
   return bool || bool1;
-  
+
+}
+function firstOnly(bool, bool1){
+  return bool && !bool1;
+
 }
 
+function secondOnly(bool,bool1){
+  return !bool && bool1;
+}
 
 /********************************************************************************************
  * CODE BELOW IS FOR EXPORTING THE VARIABLES AND FUNCTIONS YOU WROTE ABOVE TO MAIN.TEST.JS. *
