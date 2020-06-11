@@ -38,6 +38,10 @@ function secondOnly(bool,bool1){
 function neither(bool, bool1){
   return !bool && !bool1
 }
+
+function itsComplicated(bool,bool1, bool2){
+return !bool || bool1 &&  bool2
+}
 /********************************************************************************************
  * CODE BELOW IS FOR EXPORTING THE VARIABLES AND FUNCTIONS YOU WROTE ABOVE TO MAIN.TEST.JS. *
  *                              THIS IS FOR INTERNAL USE ONLY                               *
